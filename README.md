@@ -65,7 +65,17 @@ This USB driver can be easily created and installed using [Zadig](https://zadig.
 
 With the USB driver installed and the PS3 Memory Card Adaptor plugged in, you should now be able to read, write and format PS1 Memory Cards.
 
+### Compiling on Linux
+
+The project is working well with Mono.
+
+ 1. Install mono from the [official site](http://www.mono-project.com/download/). The package included on some Linux distributions is not working.
+ 2. Run the following command: ``xbuild /property:TargetFrameworkVersion=v4.0``
+ 
 ### Credits
+
+[LibUsbDotNet](https://sourceforge.net/projects/libusbdotnet/) is LGPLv2. [Version 2.2.2.9](https://sourceforge.net/projects/libusbdotnet/files/LibUsbDotNet/LibUsbDotNet%20v2.2.0/) is provided for convenience.
+
 <b>Beta testers:</b>
 <br>Gamesoul Master, Xtreme2damax and Carmax91.
 
